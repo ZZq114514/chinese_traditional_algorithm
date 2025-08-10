@@ -49,16 +49,16 @@ Press CTRL+C to quit
 
 ## 接口说明
 ### 1.测试连通性
-* **URL:**`/test`
-* **方法:**GET
-* **请求参数:**无
+* **URL:** `/test`
+* **方法:** GET
+* **请求参数:** 无
 * **响应:**
     ```
     "test"
     ```
 ### 2.万年历
-* **URL:**`/WanNianLi`
-* **方法:**POST
+* **URL:** `/WanNianLi`
+* **方法:** POST
 * **请求参数(JSON):**
     ```
   {
@@ -80,8 +80,8 @@ Press CTRL+C to quit
   }
     ```
 ### 3.时辰转换
-* **URL:**`/ShiChen`
-* **方法:**GET
+* **URL:** `/ShiChen`
+* **方法:** GET
 * **请求参数:**
     `hour`:当前小时（0-23）
     `token`:API密钥
@@ -97,8 +97,8 @@ Press CTRL+C to quit
   }
     ```
 ### 4.梅花易数
-* **URL:**`/MeiHuaZhan`
-* **方法:**POST
+* **URL:** `/MeiHuaZhan`
+* **方法:** POST
 * **请求参数 (JSON):**
     ```
   {
