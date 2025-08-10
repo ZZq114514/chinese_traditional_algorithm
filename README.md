@@ -17,7 +17,7 @@
 1. 克隆仓库
   ```
   在终端输入以下指令
-  git clone https://github.com/yourusername/chinese-calendar-api.git
+  git clone https://github.com/ZZq114514/chinese_traditional_algorithm.git
   cd chinese-calendar-api
   ```
 2. 安装依赖
