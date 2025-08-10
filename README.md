@@ -121,8 +121,8 @@ Press CTRL+C to quit
 ## 错误处理
 
 所有接口在以下情况会返回错误
-* 缺少 JSON 数据：`400 Bad Request`
-* 缺少 API token：`401 Unauthorized`
+* 缺少 必要的参数传递：`400 Bad Request`
+* 缺少 API token或者用户名与token不对应：`401 Unauthorized`
 * 时辰参数超出范围：`416 Range Not Satisfiable`
 
 ## 八卦符号对照表
